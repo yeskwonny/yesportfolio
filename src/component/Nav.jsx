@@ -58,18 +58,18 @@ function Nav() {
         <li>
           <a
             className="text-[#c2ff03] hover:underline decoration-[#c2ff03]"
-            href="#profile"
+            href="#aboutme"
           >
             ABOUTME
           </a>
         </li>
         <li>
-          <a className=" text-[#c2ff03]  hover:underline" href="#experience">
+          <a className=" text-[#c2ff03]  hover:underline" href="#projects">
             PROJECTS
           </a>
         </li>
         <li>
-          <a className=" text-[#c2ff03] hover:underline" href="#projects">
+          <a className=" text-[#c2ff03] hover:underline" href="#contact">
             CONTACT
           </a>
         </li>
