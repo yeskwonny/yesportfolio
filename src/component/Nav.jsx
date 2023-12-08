@@ -8,7 +8,7 @@ function Nav() {
   return (
     <div className="relative">
       <div className="nav-container p-4 ">
-        <ul className="hidden md:flex text-[1.5rem] gap-4 justify-center text-[#c2ff03]">
+        <ul className="hidden md:flex text-[1.5rem] gap-4 justify-center text-[#c2ff03] font-semibold">
           <li>
             <a className="hover:underline" href="#aboutme">
               ABOUTME

@@ -7,7 +7,8 @@ function Contact() {
     <div id="contact" className="h-screen bg-zinc-50 px-8 ">
       <Heading
         title="Contact Me"
-        intro="I'm on the lookout for new opportunities. Whether it's a project or just a chat about front-end development, I'd love to hear from you. Let's connect and explore possibilities together!"
+        intro="Whether it's a project or just a chat about front-end development, I'd love to hear from you. 
+        Let's connect and explore possibilities together!"
       />
 
       <div className="flex flex-col gap-3 justify-center items-center h-[320px] w-[320px] bg-[#3923eb] rounded-full sm:w-[400px] sm:h-[400px] mx-auto">

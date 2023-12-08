@@ -22,19 +22,19 @@ function Home() {
         <div className="profile-intro ">
           <div className="profile-icon justify-center flex  gap-2 mb-2">
             <a
-              className="text-[1.5rem] hover:-translate-y-1 ease-in duration-150"
+              className="text-[1.5rem] text-slate-100  hover:-translate-y-1 ease-in duration-150"
               href="https://github.com/yeskwonny"
             >
               <FaGithub />
             </a>
             <a
-              className="text-[1.5rem] hover:-translate-y-1 ease-in duration-150"
+              className="text-[1.5rem] text-slate-100 hover:-translate-y-1 ease-in duration-150"
               href="https://www.linkedin.com/in/yesol-kwon-179231287"
             >
               <FaLinkedin />
             </a>
           </div>
-          <div className="profile-greeting text-center">
+          <div className="profile-greeting text-center text-slate-100">
             <span>Hello, I am </span>
             <span className="text-[3rem] font-medium text-[#c2ff03]">
               {" "}
@@ -44,12 +44,12 @@ function Home() {
           </div>
           <div className="btn flex justify-center gap-3 mt-6">
             <a href="#">
-              <button className="px-3 py-1 text-sm rounded-md transition ease-in-out delay-100  bg-[#c2ff03] hover:bg-lime-600  sm:text-lg ">
+              <button className="px-3 py-1 text-sm rounded-md transition ease-in-out delay-100 font-semibold bg-[#c2ff03] hover:bg-lime-600  sm:text-lg ">
                 Resume
               </button>
             </a>
             <a className="" href="#contact">
-              <button className="px-3 py-1 text-sm transition ease-in-out delay-100  bg-[#c2ff03] hover:bg-lime-600  rounded-md sm:text-lg ">
+              <button className="px-3 py-1 text-sm transition ease-in-out delay-100 font-semibold bg-[#c2ff03] hover:bg-lime-600  rounded-md sm:text-lg ">
                 Contact
               </button>
             </a>

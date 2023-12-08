@@ -58,7 +58,7 @@ function Projects() {
               <FaAws />
             </span>
           </div>
-          <div className="text-center  text-[#3923eb] mt-4 mb-3 ">
+          <div className="text-center  text-[#3923eb] mt-4 mb-3 font-semibold">
             <a
               href="http://3.27.193.10/"
               className="tracking-wider hover:font-bold duration-300"
