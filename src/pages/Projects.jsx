@@ -26,7 +26,7 @@ function Projects() {
             <h2 className="text-center font-semibold tracking-wider">
               HIGH STREET GYM
             </h2>
-            <p className="text-sm text-center tracking-wider sm:max-w-4xl sm:text-left">
+            <p className="text-sm text-center tracking-wider sm:max-w-4xl sm:text-left md:w-1/2">
               A full stack website for High Street Gym where members can book
               their workout classes and manage them effortlessly. Additionally,
               members can share their fitness journey with others using the blog
@@ -89,12 +89,12 @@ function Projects() {
             <h2 className="text-center font-semibold tracking-wider ">
               MapMemoir,
             </h2>
-            <p className="text-sm text-center tracking-wider sm:max-w-4xl sm:text-left  ">
-              A full stack website for High Street Gym where members can book
-              their workout classes and manage them effortlessly. Additionally,
-              members can share their fitness journey with others using the blog
-              function. The platform offers a seamless sign-up and login/logout
-              process for a convenient user experience.
+            <p className="text-sm text-center tracking-wider sm:max-w-4xl sm:text-left md:w-1/2 ">
+              MapMemoir is a unique journal web app that connects your memories
+              to places. Create journals with dates, details, and locations on a
+              map. Perfect for travelers or anyone wanting a visual diary of
+              their experiences. Relive your moments with MapMemoir&rsquo;s
+              interactive and easy-to-use interface.
             </p>
             <h2 className="text-center mt-10 font-semibold tracking-wider">
               MADE WITH...

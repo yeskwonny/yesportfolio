@@ -15,7 +15,7 @@ function Aboutme() {
             <FcBinoculars className="text-[1.8rem]" />
             Get to know me
           </h2>
-          <p className="text-sm tracking-wider md:text-[17px]">
+          <p className="text-sm tracking-wider md:text-[17px] w-[8/10]">
             I am a passionate{" "}
             <span className="font-bold ">frontend developer. </span> I have
             recently completed an
@@ -30,11 +30,16 @@ function Aboutme() {
             <br />
             My journey into development is complemented by a background in
             customer service. As a frontend developer, I can bring a unique
-            blend of <span className="font-bold">technical expertise</span> and a{" "}
-            <span className="font-bold">customer-focused mindset</span> to every
-            project. I am excited to contribute my skills and dedication to
-            creating engaging and{" "}
+            blend of <span className="font-bold">technical expertise</span> and
+            a <span className="font-bold">customer-focused mindset</span> to
+            every project. I am excited to contribute my skills and dedication
+            to creating engaging and{" "}
             <span className="font-bold">user-friendly web experiences.</span>
+            <br />
+            <br />
+            💻🧘‍♂️ #CodeAndZen
+            <br /> When I&rsquo;m not immersed in code, you&rsquo;ll find me
+            striking yoga poses and finding balance on and off the mat.
           </p>
         </div>
 
