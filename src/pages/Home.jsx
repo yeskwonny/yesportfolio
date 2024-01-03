@@ -43,7 +43,7 @@ function Home() {
             <h1 className="text-[1.1rem] sm:text-[1.5rem]">{typeEffect}</h1>
           </div>
           <div className="btn flex justify-center gap-3 mt-6">
-            <a href="#">
+            <a href="/resume_public_yesolkwon.pdf">
               <button className="px-3 py-1 text-sm rounded-md transition ease-in-out delay-100 font-semibold bg-[#c2ff03] hover:bg-lime-600  sm:text-lg ">
                 Resume
               </button>
