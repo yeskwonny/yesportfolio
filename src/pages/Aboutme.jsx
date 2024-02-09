@@ -23,8 +23,10 @@ function Aboutme() {
               {" "}
               full-stack web development course
             </span>
-            . This comprehensive program has provided me with a strong
-            foundation in both backend and frontend technologies, enhancing my
+            .
+            <br />
+            This comprehensive program has provided me with a strong foundation
+            in both backend and frontend technologies, enhancing my
             problem-solving skills and technical proficiency.
             <br />
             <br />
