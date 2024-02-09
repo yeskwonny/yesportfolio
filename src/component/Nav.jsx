@@ -53,7 +53,9 @@ function Nav() {
         ></div>
       </button>
       <ul
-        className={`${isOpen ? "flex flex-col items-center gap-1" : "hidden"}`}
+        className={`${
+          isOpen ? "flex flex-col items-center gap-1" : "hidden"
+        } md:hidden`}
       >
         <li>
           <a

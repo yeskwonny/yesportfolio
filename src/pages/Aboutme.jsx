@@ -15,7 +15,7 @@ function Aboutme() {
             <FcBinoculars className="text-[1.8rem]" />
             Get to know me
           </h2>
-          <p className="text-sm tracking-wider md:text-[17px] w-[8/10]">
+          <p className="text-sm tracking-wider md:text-[17px] w-3/4 text-justify">
             I am a passionate{" "}
             <span className="font-bold ">frontend developer. </span> I have
             recently completed an
@@ -28,12 +28,11 @@ function Aboutme() {
             problem-solving skills and technical proficiency.
             <br />
             <br />
-            My journey into development is complemented by a background in
-            customer service. As a frontend developer, I can bring a unique
-            blend of <span className="font-bold">technical expertise</span> and
-            a <span className="font-bold">customer-focused mindset</span> to
-            every project. I am excited to contribute my skills and dedication
-            to creating engaging and{" "}
+            As a frontend developer, I can bring a unique blend of{" "}
+            <span className="font-bold">technical expertise</span> and a{" "}
+            <span className="font-bold">customer-focused mindset</span> to every
+            project. I am excited to contribute my skills and dedication to
+            creating engaging and{" "}
             <span className="font-bold">user-friendly web experiences.</span>
             <br />
             <br />
@@ -43,9 +42,9 @@ function Aboutme() {
           </p>
         </div>
 
-        <div className="flex flex-wrap text-[0.9rem] sm:w-1/3">
+        <div className="flex flex-col text-[0.9rem] sm:w-1/3">
           <h2 className="font-semibold text-[1.2rem] py-4 ">
-            <FcFlashOn className="text-[1.8rem] sm:" />
+            <FcFlashOn className="text-[1.8rem]" />
             Skills
           </h2>
           <div className="flex flex-wrap gap-1 sm:gap-2 ">

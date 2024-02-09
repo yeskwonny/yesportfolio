@@ -8,6 +8,7 @@ import { FaNode } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
 import { SiLeaflet } from "react-icons/si";
+import { RiSupabaseFill } from "react-icons/ri";
 
 function Projects() {
   return (
@@ -129,6 +130,57 @@ function Projects() {
                 GITHUB{" "}
               </a>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col gap-4  md:grid grid-cols-2  m-auto  mt-24">
+        <div className=" ">
+          <img className="" src="/todayilearned.png" />
+        </div>
+        <div className="flex flex-col items-center md:items-start justify-center p-4 ">
+          <h2 className="text-center font-semibold tracking-wider ">
+            Today I learned
+          </h2>
+          <p className="text-sm text-center tracking-wider sm:max-w-4xl sm:text-left md:w-1/2 ">
+            The Today I Learned is a platform where users can share interesting
+            facts or pieces of knowledge that they have learned. Other users can
+            interact with these facts by voting on them. Additionally, users can
+            filter the facts based on different categories to explore specific
+            topics of interest.
+          </p>
+          <h2 className="text-center mt-10 font-semibold tracking-wider">
+            MADE WITH...
+          </h2>
+          <div className="flex flex-wrap gap-3 justify-center">
+            <span className="text-[2rem]">
+              <FaHtml5 />
+            </span>
+            <span className="text-[2rem] ">
+              <FaCss3Alt />
+            </span>
+            <span className="text-[2rem]">
+              <FaReact />
+            </span>
+            <span className="text-[2rem]">
+              <RiSupabaseFill />
+            </span>
+          </div>
+          <div className="text-center  text-[#3923eb] mt-4 mb-10 font-semibold">
+            <a
+              href="https://what-i-learned.netlify.app/"
+              className="tracking-wider hover:font-bold duration-300"
+            >
+              LIVE SITE{" "}
+            </a>
+            <span>|</span>
+            <a
+              href="https://github.com/yeskwonny/today-i-learned"
+              className="tracking-wider hover:font-bold duration-300"
+            >
+              {" "}
+              GITHUB{" "}
+            </a>
           </div>
         </div>
       </div>
