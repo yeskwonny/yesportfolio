@@ -15,7 +15,7 @@ function Aboutme() {
             <FcBinoculars className="text-[1.8rem]" />
             Get to know me
           </h2>
-          <p className="text-sm tracking-wider md:text-[17px] w-3/4 text-justify">
+          <p className="text-sm tracking-wider text-justify md:w-[1/9] md:text-[17px] ">
             I am a passionate{" "}
             <span className="font-bold ">frontend developer. </span> I have
             recently completed an
@@ -43,7 +43,7 @@ function Aboutme() {
         </div>
 
         <div className="flex flex-col text-[0.9rem] sm:w-1/3">
-          <h2 className="font-semibold text-[1.2rem] py-4 ">
+          <h2 className="font-semibold text-[1.2rem] py-4">
             <FcFlashOn className="text-[1.8rem]" />
             Skills
           </h2>
