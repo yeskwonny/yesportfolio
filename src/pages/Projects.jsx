@@ -9,6 +9,10 @@ import { SiMysql } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
 import { SiLeaflet } from "react-icons/si";
 import { RiSupabaseFill } from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
+
+//// Todo//////
+// make a component!!!
 
 function Projects() {
   return (
@@ -124,6 +128,62 @@ function Projects() {
               <span>|</span>
               <a
                 href="https://github.com/yeskwonny/mapmemoir"
+                className="tracking-wider hover:font-bold duration-300"
+              >
+                {" "}
+                GITHUB{" "}
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* weather app */}
+        <div className="flex flex-col gap-4  md:grid grid-cols-2  m-auto  mt-24">
+          <div className=" ">
+            <img className="" src="/weather_app.png" />
+          </div>
+          <div className="flex flex-col items-center md:items-start justify-center p-4 ">
+            <h2 className="text-center font-semibold tracking-wider ">
+              Weather App
+            </h2>
+            <p className="text-sm text-center tracking-wider sm:max-w-4xl sm:text-left md:w-1/2 ">
+              Users can effortlessly search for any city and receive detailed
+              weather data for today, as well as forecasts for the next 13
+              hours. The interface is designed to be intuitive and
+              user-friendly, ensuring a seamless experience across various
+              devices. With its responsive design, accessing accurate weather
+              information has never been easier.
+            </p>
+            <h2 className="text-center mt-10 font-semibold tracking-wider">
+              MADE WITH...
+            </h2>
+            <div className="flex flex-wrap gap-3 justify-center">
+              <span className="text-[2rem]">
+                <FaHtml5 />
+              </span>
+              <span className="text-[2rem] ">
+                <FaCss3Alt />
+              </span>
+              <span className="text-[2rem]">
+                <BiLogoTailwindCss />
+              </span>
+              <span className="text-[2rem]">
+                <FaReact />
+              </span>
+              <span className="text-[2rem]">
+                <SiTypescript />
+              </span>
+            </div>
+            <div className="text-center  text-[#3923eb] mt-4 mb-10 font-semibold">
+              <a
+                href="https://weather-plz-app.netlify.app/"
+                className="tracking-wider hover:font-bold duration-300"
+              >
+                LIVE SITE{" "}
+              </a>
+              <span>|</span>
+              <a
+                href=" https://github.com/yeskwonny/weather-app"
                 className="tracking-wider hover:font-bold duration-300"
               >
                 {" "}

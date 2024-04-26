@@ -66,7 +66,7 @@ function Aboutme() {
               React
             </span>
             <span className="px-2 border border-gray-200 bg-slate-200 sm:h-10 py-2 ">
-              Express
+              TypeScript
             </span>
             <span className="px-2 border border-gray-200 bg-slate-200 sm:h-10 py-2 ">
               MySQL
