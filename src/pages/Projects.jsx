@@ -68,13 +68,13 @@ function Projects() {
               </span>
             </div>
             <div className="text-center  text-[#3923eb] mt-4 mb-10 font-semibold">
-              <a
+              {/* <a
                 href="http://3.27.193.10/"
                 className="tracking-wider hover:font-bold duration-300"
               >
                 LIVE SITE{" "}
-              </a>
-              <span>|</span>
+              </a> */}
+              {/* <span>|</span> */}
               <a
                 href="https://github.com/yeskwonny/high-street-gym-frontend"
                 className="tracking-wider hover:font-bold duration-300"
